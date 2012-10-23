@@ -5,10 +5,10 @@ COM:
 DES:PowerBuilder Unit Testing Framework
 CPY:
 PRD:PBUnit
-PVS:1,0,0,1
-PVN:9,0,0,0
-FVS:1,0,0,1
-FVN:1,0,0,1
+PVS:3,2,0,0
+PVN:3,2,0,0
+FVS:3,2,0,0
+FVN:3,2,0,0
 MAN:0,asInvoker,0
 PBD:pbunitui.pbl,,0
 PBD:pbunitfunc.pbl,,0
