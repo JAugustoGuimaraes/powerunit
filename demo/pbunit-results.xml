@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="pbunit-tests.xsl"?>
+<cruisecontrol>
+	<pbunit-test-results name="C:\kode\powerbuilder\test2\test2.pbt">
+		<test-suite name="n_cst_math_test" time="0.0630" asserts="7" success="True">
+			<results>
+				<test-case name="a n_cst_math_test.test_add" time="0.0150" asserts="2" success="True" executed="True">
+					<failure>
+						<message>
+							<![CDATA[]]>
+						</message>
+						<stack-trace>
+							<![CDATA[]]>
+						</stack-trace>
+					</failure>
+				</test-case>
+				<test-case name="a n_cst_math_test.test_add_negative" time="0.0160" asserts="1" success="True" executed="True">
+					<failure>
+						<message>
+							<![CDATA[]]>
+						</message>
+						<stack-trace>
+							<![CDATA[]]>
+						</stack-trace>
+					</failure>
+				</test-case>
+				<test-case name="a n_cst_math_test.test_hehe" time="0.0160" asserts="2" success="True" executed="True">
+					<failure>
+						<message>
+							<![CDATA[]]>
+						</message>
+						<stack-trace>
+							<![CDATA[]]>
+						</stack-trace>
+					</failure>
+				</test-case>
+				<test-case name="a n_cst_math_test.test_zomg" time="0.0160" asserts="2" success="True" executed="True">
+					<failure>
+						<message>
+							<![CDATA[]]>
+						</message>
+						<stack-trace>
+							<![CDATA[]]>
+						</stack-trace>
+					</failure>
+				</test-case>
+			</results>
+		</test-suite>
+	</pbunit-test-results>
+</cruisecontrol>

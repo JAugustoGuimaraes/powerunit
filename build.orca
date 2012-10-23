@@ -1,0 +1,30 @@
+start session
+
+scc set connect property logfile "buildfromsource.log"
+
+scc connect offline
+scc set target "pbunitgui.pbt"  IMPORTONLY
+scc refresh target migrate
+
+scc close
+
+set lib_list = "pbunit.pbl;"
+set lib_list += "pbunitfunc.pbl;"
+set lib_list += "pbunitui.pbl;"
+set main_pbl = "pbunitui.pbl"
+
+build application FULL
+
+set exeinfo property description  "UnitTest tool for Powerbuilder"
+set exeinfo property copyright  "2008"
+set exeinfo property productname  "PBUnit"
+set exeinfo property companyname  "Frank Mao"
+
+
+build executable "pbunit.exe" "pbunit.ico" "pbunit.pbr" "yyy"
+
+build Library "pbunit.pbl" "" PBD
+build Library "pbunitfunc.pbl" "" PBD
+build Library "pbunitui.pbl" "" PBD
+
+end session

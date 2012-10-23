@@ -1,0 +1,4 @@
+n_cst_math_test	a n_cst_math_test.test_add	True	True	0,0150	2			C:\kode\powerbuilder\test2\test2.pbt
+n_cst_math_test	a n_cst_math_test.test_add_negative	True	True	0,0160	1			C:\kode\powerbuilder\test2\test2.pbt
+n_cst_math_test	a n_cst_math_test.test_hehe	True	True	0,0160	2			C:\kode\powerbuilder\test2\test2.pbt
+n_cst_math_test	a n_cst_math_test.test_zomg	True	True	0,0160	2			C:\kode\powerbuilder\test2\test2.pbt

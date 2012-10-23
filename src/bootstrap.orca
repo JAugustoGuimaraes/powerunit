@@ -1,0 +1,18 @@
+start session
+
+CREATE library "pbunitui.pbl" ""
+CREATE library "pbunitfunc.pbl" ""
+CREATE library "pbunit.pbl" ""
+
+SCC get connect properties "C:\kode\powerunit\pbunit.pbw"
+SCC set connect property userid "alarsen.cap@gmail.com"
+SCC Connect
+SCC set target "pbunitgui.pbt" "REFRESH_ALL"
+SCC refresh target "full"
+SCC Close
+
+;build Library "pbunit.pbl" "" PBD
+;build Library "pbunitfunc.pbl" "" PBD
+;build Library "pbunitui.pbl" "" PBD
+
+end session
