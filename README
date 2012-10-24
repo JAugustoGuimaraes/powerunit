@@ -32,10 +32,8 @@ After checkout, uncheck read-only for the entire repository
 6. Open the Workspace and add the target "pbunitgui.pbt"
    It might complain about not beeing checked out, just hit OK
 
-7. Get latest from repository
+7. Refresh Status
    Right click the target
-   Get latest
-   Select multiple files contained in this target
-   Select all
+   Refresh Status
 
 The Workspace and IDE is now in a state you can work with!
