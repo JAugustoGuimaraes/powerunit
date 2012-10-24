@@ -2,6 +2,8 @@ In order to bootstrap after first checkout
 
 Install the PuskOK GIT SCC proxy http://www.pushok.com/software/git.html
 
+Check out with external git tool
+
 After checkout, uncheck read-only for the entire repository
 
 1. Open the workspace
@@ -18,8 +20,22 @@ After checkout, uncheck read-only for the entire repository
 3. Close the Workspace
    ORCAscript will fail if it is open
 
-4. Fix bootstrap.orca with your information:
-   SCC get connect properties "C:\kode\powerunit\pbunit.pbw"
+4. Fix scripts\bootstrap.orca with your information:
+   SCC get connect properties "C:\kode\powerunit\src\pbunit.pbw"
    SCC set connect property userid "alarsen.cap@gmail.com"
 
-5. Run it with orcascr125.exe
+5. Run the bootstrap script
+   if orcascr125.exe is on your system path, just run scripts/bootstrap.cmd
+   if not, find orcascr125.exe in C:\Program Files (x86)\Sybase\Shared\PowerBuilder
+   and use bootstrap.orca
+
+6. Open the Workspace and add the target "pbunitgui.pbt"
+   It might complain about not beeing checked out, just hit OK
+
+7. Get latest from repository
+   Right click the target
+   Get latest
+   Select multiple files contained in this target
+   Select all
+
+The Workspace and IDE is now in a state you can work with!

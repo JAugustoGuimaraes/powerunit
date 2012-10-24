@@ -1,7 +1,7 @@
 cd src
 
-orcascr125 ../build.orca
+orcascr125 ../scripts/build.orca
 
-cd ..
+cd ../scripts
 
 out.cmd
