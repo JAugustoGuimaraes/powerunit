@@ -1,0 +1,25 @@
+In order to bootstrap after first checkout
+
+Install the PuskOK GIT SCC proxy http://www.pushok.com/software/git.html
+
+After checkout, uncheck read-only for the entire repository
+
+1. Open the workspace
+   It will complain in cannot open the target, this is OK
+
+2. Fix the SCC settings
+   Right Click on the Workspace
+   Go to Properties
+   Go to Source Control
+   Select PushOK GITSCC as the Source Control System
+   The Local Root Directory should be on the project folder (e.g. "pbunit") not in "src"
+   Click Connect
+
+3. Close the Workspace
+   ORCAscript will fail if it is open
+
+4. Fix bootstrap.orca with your information:
+   SCC get connect properties "C:\kode\powerunit\pbunit.pbw"
+   SCC set connect property userid "alarsen.cap@gmail.com"
+
+5. Run it with orcascr125.exe
